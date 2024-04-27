@@ -1,7 +1,11 @@
 $lightGreen:#b9e7e7;
 .app{
+    display:flex;
+    justify-content:center;
     //LOGIN AND REGISTER
     .container{
+        width:1024px;
+        .auth{
         display:flex;
         align-items: center;
         justify-content: center;
@@ -9,7 +13,7 @@ $lightGreen:#b9e7e7;
         height:100vh;
         background-color:$lightGreen;
         flex-direction: column;
-
+        }
         h1{
             font-size:20px;
             color:teal;
@@ -35,6 +39,28 @@ $lightGreen:#b9e7e7;
                 background-color:teal;
                 color:white;
                 cursor:pointer;
+            }
+            span{
+                font-size:12px;
+                text-align: center;
+            }
+            p{
+                font-size:12px;
+                color:red;
+                text-align: center;
+            }
+        }
+        //NAVBAR
+        .navbar{
+            .container{
+                padding:10px 0px;
+                display:flex;
+                justify-content:space-between;
+                .logo{
+                    .links{
+
+                    }
+                }
             }
         }
     }
