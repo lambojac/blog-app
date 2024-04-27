@@ -24,6 +24,18 @@ $lightGreen:#b9e7e7;
             background-color: white;
             width:200px;
             gap:20px;
+            input{
+                padding:10px;
+                border:none;
+                border-bottom:1px solid gray;
+            }
+            button{
+                padding:10px;
+                border:none;
+                background-color:teal;
+                color:white;
+                cursor:pointer;
+            }
         }
     }
 }
